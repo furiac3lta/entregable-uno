@@ -39,7 +39,7 @@ p {
   font-family: "Roboto Slab", serif;
   font-size: 24px;
   color: rgb(83, 82, 81, 0.8);
-  max-width: 70%;
+  max-width: 60%;
 }
 button {
   font-family: "Roboto Slab", serif;
@@ -63,6 +63,7 @@ button {
   p {
     padding: 4rem;
     font-size: 14px;
+    max-width: 80%;
   }
   button{
     font-size: 14px;
