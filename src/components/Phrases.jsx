@@ -12,6 +12,7 @@ const Phrases = ({ ramdomPhrase }) => {
       
       </svg>
       <p className="parragraph">{ramdomPhrase.phrase}</p>
+   
       <svg className="bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
