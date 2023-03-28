@@ -1,6 +1,7 @@
 import './App.css'
 import Button from './components/Button'
 import Phrases from './components/Phrases'
+import phrases from './utils/phrases.json'
 import getRandomPhrase from './utils/getRandomPhrase';
 import { useState } from 'react';
 
@@ -8,7 +9,7 @@ const imgs = [1,2,3,4]
 
 function App() {
 
-const [randomPhrase, setRandomPhrase] = useState(imgs)
+const [randomPhrase, setRandomPhrase] = useState(getRandomPhrase(phrases))
 const [numberImg, setNumberImg] = useState(getRandomPhrase(imgs))
 
 const appStyle = {

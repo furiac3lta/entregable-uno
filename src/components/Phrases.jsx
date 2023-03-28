@@ -12,7 +12,6 @@ const Phrases = ({ ramdomPhrase }) => {
       
       </svg>
       <p className="parragraph">{ramdomPhrase.phrase}</p>
-     {/*  <p className="parragraph">{ramdomPhrase.phrase}</p> */}
       <svg className="bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -24,4 +23,7 @@ const Phrases = ({ ramdomPhrase }) => {
   );
 };
 
+Phrases.defaultProps ={
+  ramdomPhrase :'No hay peor venganza que el olvido!'
+}
 export default Phrases;

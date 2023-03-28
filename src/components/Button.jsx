@@ -4,7 +4,8 @@ import phrase from '../utils/phrases.json'
 const Button = ({setRandomPhrase, setNumberImg}) => {
  
 const handleClick = () =>{
-setRandomPhrase(getRandomPhrase(phrase))
+  const newPhrase = getRandomPhrase(phrase)
+setRandomPhrase(newPhrase)
 setNumberImg(getRandomPhrase([1,2,3,4]))
 }
   return (
