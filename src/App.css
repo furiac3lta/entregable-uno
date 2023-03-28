@@ -12,13 +12,13 @@
   justify-content: center;
 }
 .title {
-  padding-top: 0rem;
+
   font-size: 36px;
   font-family: "Roboto Slab", serif;
   color: white;
   text-align: center;
   text-shadow: 7px 8px 1.5px rgb(136, 134, 136, 0.5);
-  padding-bottom: 3rem;
+  
 }
 .container {
   font-family: "Roboto", sans-serif;
@@ -37,7 +37,7 @@ svg{
   filter: drop-shadow(10px 10px 5px rgb(128, 139, 149));
 }
 p {
-  padding: 3rem;
+  
   font-family: "Roboto Slab", serif;
   font-size: 24px;
   background-color: white;
@@ -58,7 +58,6 @@ button {
 }
 @media (max-width: 640px) {
   .title {
-    padding-top: 3rem;
     font-size: 32px;
   }
   .container {
